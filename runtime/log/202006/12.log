@@ -1,0 +1,1132 @@
+---------------------------------------------------------------
+[ 2020-06-12T11:03:49+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/index/index
+[运行时间：0.709440s] [吞吐率：1.41req/s] [内存消耗：1,342.06kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T11:03:55+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/index
+[运行时间：0.065700s] [吞吐率：15.22req/s] [内存消耗：1,296.56kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->index[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T11:04:04+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/index/index
+[运行时间：0.034899s] [吞吐率：28.65req/s] [内存消耗：1,342.07kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T11:04:14+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/index/test
+[运行时间：0.033923s] [吞吐率：29.48req/s] [内存消耗：1,342.07kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T11:04:16+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/test
+[运行时间：0.042764s] [吞吐率：23.38req/s] [内存消耗：1,296.50kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->test[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:19:43+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.414699s] [吞吐率：2.41req/s] [内存消耗：1,343.62kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include_once(../libraries/gateway/Gateway.php): failed to open stream: No such file or directory[/Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Chat.php:13]
+---------------------------------------------------------------
+[ 2020-06-12T12:20:14+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.211955s] [吞吐率：4.72req/s] [内存消耗：1,343.87kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include_once(../libraries/gateway/Gateway.php): failed to open stream: No such file or directory[/Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Chat.php:12]
+---------------------------------------------------------------
+[ 2020-06-12T12:20:47+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.085662s] [吞吐率：11.67req/s] [内存消耗：1,341.44kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:21:21+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.314162s] [吞吐率：3.18req/s] [内存消耗：1,341.34kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:21:21+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.024733s] [吞吐率：40.43req/s] [内存消耗：1,341.34kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:21:29+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/index
+[运行时间：0.157462s] [吞吐率：6.35req/s] [内存消耗：1,296.56kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->index[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:21:53+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.029120s] [吞吐率：34.34req/s] [内存消耗：1,341.09kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:22:07+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.035223s] [吞吐率：28.39req/s] [内存消耗：1,341.34kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:22:08+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.024825s] [吞吐率：40.28req/s] [内存消耗：1,341.34kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:22:08+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.033766s] [吞吐率：29.62req/s] [内存消耗：1,341.34kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:22:08+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.031500s] [吞吐率：31.75req/s] [内存消耗：1,341.34kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:22:08+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.024660s] [吞吐率：40.55req/s] [内存消耗：1,341.34kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:22:08+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.028845s] [吞吐率：34.67req/s] [内存消耗：1,341.34kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:22:35+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/index
+[运行时间：0.191895s] [吞吐率：5.21req/s] [内存消耗：1,344.01kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include_once(../libraries/gateway/Gateway.php): failed to open stream: No such file or directory[/Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php:3]
+---------------------------------------------------------------
+[ 2020-06-12T12:22:42+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/index
+[运行时间：0.064646s] [吞吐率：15.47req/s] [内存消耗：1,297.15kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->index[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:22:56+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.025786s] [吞吐率：38.78req/s] [内存消耗：1,296.87kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:23:30+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.026808s] [吞吐率：37.30req/s] [内存消耗：1,297.27kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:23:31+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.025529s] [吞吐率：39.17req/s] [内存消耗：1,297.27kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:23:31+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.026467s] [吞吐率：37.78req/s] [内存消耗：1,297.27kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:23:31+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.023788s] [吞吐率：42.04req/s] [内存消耗：1,297.27kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:23:39+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.095609s] [吞吐率：10.46req/s] [内存消耗：1,344.38kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include_once(/Users/dev_001/www/vincenzo/thinkphp/application/index/controller../libraries/gateway/Gateway.php): failed to open stream: No such file or directory[/Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php:3]
+---------------------------------------------------------------
+[ 2020-06-12T12:23:40+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.032692s] [吞吐率：30.59req/s] [内存消耗：1,344.38kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include_once(/Users/dev_001/www/vincenzo/thinkphp/application/index/controller../libraries/gateway/Gateway.php): failed to open stream: No such file or directory[/Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php:3]
+---------------------------------------------------------------
+[ 2020-06-12T12:23:40+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.030999s] [吞吐率：32.26req/s] [内存消耗：1,344.38kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include_once(/Users/dev_001/www/vincenzo/thinkphp/application/index/controller../libraries/gateway/Gateway.php): failed to open stream: No such file or directory[/Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php:3]
+---------------------------------------------------------------
+[ 2020-06-12T12:23:47+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.035778s] [吞吐率：27.95req/s] [内存消耗：1,452.48kb] [文件加载：34]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:24:17+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.047135s] [吞吐率：21.22req/s] [内存消耗：1,452.70kb] [文件加载：34]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:24:18+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.029612s] [吞吐率：33.77req/s] [内存消耗：1,452.70kb] [文件加载：34]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:24:18+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.031270s] [吞吐率：31.98req/s] [内存消耗：1,452.70kb] [文件加载：34]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T12:24:18+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.028143s] [吞吐率：35.53req/s] [内存消耗：1,452.70kb] [文件加载：34]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T14:47:32+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/index
+[运行时间：0.656288s] [吞吐率：1.52req/s] [内存消耗：1,451.44kb] [文件加载：34]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Welcome->index[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Welcome.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T14:47:58+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/index
+[运行时间：0.169223s] [吞吐率：5.91req/s] [内存消耗：1,338.56kb] [文件加载：36]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T14:48:05+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.033295s] [吞吐率：30.03req/s] [内存消耗：1,296.36kb] [文件加载：33]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Chat->join[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Chat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T15:15:19+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/welcome/join
+[运行时间：0.868579s] [吞吐率：1.15req/s] [内存消耗：1,493.85kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'welcome',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-12T15:15:54+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/join
+[运行时间：0.448444s] [吞吐率：2.23req/s] [内存消耗：1,343.44kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'join',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include_once(../libraries/gateway/Gateway.php): failed to open stream: No such file or directory[/Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Chat.php:4]
+---------------------------------------------------------------
+[ 2020-06-12T15:15:55+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/bind
+[运行时间：0.296025s] [吞吐率：3.38req/s] [内存消耗：1,343.21kb] [文件加载：37]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'bind',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include_once(../libraries/gateway/Gateway.php): failed to open stream: No such file or directory[/Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Chat.php:4]
+---------------------------------------------------------------
+[ 2020-06-12T15:16:27+08:00 ] 127.0.0.1 GET www.vincenzo.com/thinkphp/public/index/chat/bind
+[运行时间：0.200145s] [吞吐率：5.00req/s] [内存消耗：1,451.55kb] [文件加载：34]
+[ info ] [ LANG ] /Users/dev_001/www/vincenzo/thinkphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'chat',
+    2 => 'bind',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vincenzo.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3256360960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Chat->bind[ /Users/dev_001/www/vincenzo/thinkphp/application/index/controller/Chat.php ]
+[ info ] [ LOG ] INIT File
