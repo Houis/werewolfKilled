@@ -23,4 +23,9 @@ class Civilian implements Role
         // TODO: Implement isDead() method.
         return false;
     }
+
+    public function dead()
+    {
+        // TODO: Implement dead() method.
+    }
 }

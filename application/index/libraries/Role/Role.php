@@ -13,6 +13,6 @@ interface Role
     /* 角色技能 */
     public function skill();
 
-
-
+    /*  */
+    public function dead();
 }
