@@ -27,5 +27,9 @@ class User
         $params = $request->param();
         echo "<pre>";
         print_r($params);
+
+
+        $result = db('user')->where('user_name',$params['user_name'])->select();
+        print_r($result);
     }
 }
