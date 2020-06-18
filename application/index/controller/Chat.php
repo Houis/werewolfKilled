@@ -11,12 +11,16 @@ class Chat
         Gateway::$registerAddress = '192.168.10.62:1238';
     }
 
-    public function bind(){
+    public function bindUser(){
 
     }
 
-    public function joinRoom(){
+    public function unBindUser(){
 
+    }
+
+    public function joinRoom($client_id,$room_id){
+        return Gateway::joinGroup($client_id,$room_id);
     }
 
 
