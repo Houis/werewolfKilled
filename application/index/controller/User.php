@@ -7,8 +7,8 @@
  */
 
 namespace app\index\controller;
-
 use \think\Request;
+use \app\index\model\user as userModel;
 class User
 {
     public function __construct()
@@ -25,11 +25,21 @@ class User
     public function login(){
         $request = Request::instance();
         $params = $request->param();
+
+//        $result = db('user')->where('user_name',$params['user_name'])->find();
+        $user = new userModel();
+        $user->where(['user_name'=>$params['user_name']]);
+        $result = $user->select();
+
+
+//        $user_info = \app\index\model\User::where(['user_name'=>$params['user_name']])->find();
         echo "<pre>";
-        print_r($params);
-
-
-        $result = db('user')->where('user_name',$params['user_name'])->select();
         print_r($result);
+
+//        if(!$result){
+//
+//            db('user')->insert($params);
+//        }
+
     }
 }
