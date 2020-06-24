@@ -10,9 +10,10 @@ class Form{
      * 提交请求
      * @param url       接口地址
      * @param params    请求参数
-     * @param callback  成功回调
+     * @param success_callback  成功回调
+     * @param error_callback    失败回调
      */
-    submit(url,params,callback){
+    submit(url,params,success_callback,error_callback){
         $.ajax({
            url:this.base_url+url,
             type:"post",
@@ -21,10 +22,8 @@ class Form{
                 token:localStorage.getItem('token')
             },
             dataType:'json',
-            success:callback,
-            error:function(){
-               alert('请求失败');
-            }
+            success:success_callback,
+            error:error_callback
         });
     }
 

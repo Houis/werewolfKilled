@@ -8,53 +8,47 @@
     <title>注册页面</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/register.css" rel="stylesheet" />
     <link href="css/common.css" rel="stylesheet" />
+    <link href="css/register.css" rel="stylesheet" />
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="js/jquery.serializejson.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/register.js"></script>
 </head>
 <body class="container-fluid">
     <form id="register_form">
         <div class="form-group">
             <label for="exampleInputUserName" class="title">用户名</label>
-            <input name="user_name" type="text" class="form-control" id="exampleInputUserName " placeholder="请输入用户名">
+            <input name="user_name" type="text" class="form-control input-lg" id="exampleInputUserName " placeholder="请输入用户名">
             <span class="error_msg"></span>
         </div>
         <div class="form-group">
             <label for="exampleInputPhone" class="title">手机号</label>
-            <input name="phone" type="phone" class="form-control" id="exampleInputPhone" placeholder="请输入手机号码">
+            <input name="phone" type="phone" class="form-control input-lg" id="exampleInputPhone" placeholder="请输入手机号码">
             <span class="error_msg"></span>
         </div>
         <div class="form-group">
             <label for="exampleInputEmail" class="title">邮箱</label>
-            <input name="email" type="email" class="form-control" id="exampleInputEmail" placeholder="请输入邮箱">
+            <input name="email" type="email" class="form-control input-lg" id="exampleInputEmail" placeholder="请输入邮箱">
             <span class="error_msg"></span>
         </div>
         <div class="form-group">
             <label for="exampleInputPassword" class="title">密码</label>
-            <input name="password" type="password" class="form-control" id="exampleInputPassword" placeholder="Password">
+            <input name="password" type="password" class="form-control input-lg" id="exampleInputPassword" placeholder="请输入密码">
             <span class="error_msg"></span>
         </div>
 
-        <button id="register_button" type="button" class="btn btn-primary btn-block">注册</button>
+        <button id="register_button" type="button" class="btn btn-primary btn-lg btn-block">注册</button>
     </form>
 
 </body>
-<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-<script src="js/jquery.serializejson.js"></script>
-<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
-<script src="js/form.js"></script>
+
 
 <script type="text/javascript">
-
-//    var params = $("#register_form").serializeJSON();
-//
-//    var form = new Form();
-//    form.submit('user/login',JSON.stringify(params),function(response){
-//          console.log(response);
-//    });
-
-
 
 </script>
 </html>

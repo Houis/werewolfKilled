@@ -21,7 +21,9 @@ class User
 
     public function register(){
         $request = Request::instance();
-        $params = $request->param();
+        $params = $request->param('params');
+        $params = json_decode($params,true);
+        debug($params);
 
         $check_params = ['user_name','password','phone','email'];
         if(api_check_params($params,$check_params,true))
