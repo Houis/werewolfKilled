@@ -11,5 +11,6 @@ CREATE TABLE werewolves_user(
 `create_time` INT(13) COMMENT '创建时间',
 `last_login_ip` VARCHAR(25) COMMENT '上一次登陆ip',
 `last_login_time` INT(13) COMMENT '上一次登陆时间',
+`token` VARCHAR(36) COMMENT '登陆token',
 PRIMARY KEY(`user_id`)
 )COMMENT '用户表';

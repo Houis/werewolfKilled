@@ -7,6 +7,8 @@
  */
 
 namespace app\index\controller;
+use think\Cache;
+use think\cache\driver\Redis;
 use \think\Request;
 use \app\index\model\user as userModel;
 class User
@@ -19,27 +21,70 @@ class User
     }
 
     public function register(){
+        debug(get_client_ip());
+        $request = Request::instance();
+        $params = $request->param();
 
+        $check_params = ['user_name','password','phone','email'];
+        if(api_check_params($params,$check_params,true))
+            api_result(1003);
+
+        $user = new userModel();
+        $check_user = $user->whereOr([
+            'user_name'=>$params['user_name'],
+            'phone'=>$params['phone'],
+            'email'=>$params['email'],
+        ])->select();
+
+        if($check_user)
+            api_result(1006);
+
+        $user->data([
+            'user_id'=>uuid(),
+            'user_name'=>$params['user_name'],
+            'phone'=>$params['phone'],
+            'email'=>$params['email'],
+            'password'=>encrypt($params['password']),
+            'create_time'=>time()
+        ]);
+
+        $user->save();
+
+        api_result(0);
     }
 
     public function login(){
         $request = Request::instance();
         $params = $request->param();
 
-//        $result = db('user')->where('user_name',$params['user_name'])->find();
+        $check_params = ['user_name','password'];
+        if(api_check_params($params,$check_params,true))
+            api_result(1003);
+
         $user = new userModel();
-        $user->where(['user_name'=>$params['user_name']]);
-        $result = $user->select();
+        $user_info = $user->where(['user_name'=>$params['user_name']])->field('user_id,user_name,password,token')->find();
+
+        if(!$user_info)
+            api_result(1007);//用户不存在
+
+        if($user_info['password'] != encrypt($params['password']))
+            api_result(1008);//密码不正确
+
+        if($user_info['token'])
+            Cache::store('redis')->rm($user_info['token']);
+
+        $token = uuid();
+
+        $user->save([
+            'token'=>$token,
+            'last_login_ip'=>get_client_ip(),
+            'last_login_time'=>time()
+        ],['user_id'=>$user_info['user_id']]);
 
 
-//        $user_info = \app\index\model\User::where(['user_name'=>$params['user_name']])->find();
-        echo "<pre>";
-        print_r($result);
-
-//        if(!$result){
-//
-//            db('user')->insert($params);
-//        }
-
+        Cache::store('redis')->set($token,$user_info,3200);
+        api_result(0,$token);
     }
+
+
 }
