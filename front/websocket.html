@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+   <meta charset="utf-8">
+   <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+   <title>菜鸟教程(runoob.com)</title>
+      <div class="message">
+         
+      </div>
+      <form>
+         <textarea id="messageArea" rows="3" style="width: 100%;"></textarea>
+         <button id="sendMessage" type="button">提交</button>
+      </form>
+      <script type="text/javascript">
+         var ws;
+         function WebSocketTest()
+         {
+            if ("WebSocket" in window)
+            {
+               // alert("您的浏览器支持 WebSocket!");
+               
+               // 打开一个 web socket
+               ws = new WebSocket("ws://192.168.10.62:8282");
+                
+               ws.onopen = function()
+               {
+                  // Web Socket 已连接上，使用 send() 方法发送数据
+                  // ws.send("你好啊");
+                  // alert("数据发送中...");
+               };
+                
+               ws.onmessage = function (evt) 
+               { 
+                  var received_msg = evt.data;
+                  $(".message").append(received_msg+"<br>");
+                  // console.log(received_msg);
+                  // alert(received_msg);
+               };
+                
+               ws.onclose = function()
+               { 
+                  // 关闭 websocket
+                  alert("连接已关闭..."); 
+               };
+            }
+            
+            else
+            {
+               // 浏览器不支持 WebSocket
+               alert("您的浏览器不支持 WebSocket!");
+            }
+         }
+         $("#sendMessage").click(function(){
+            if(!$("#messageArea").val()){
+               alert("请输入内容");
+               return false;
+            }
+            ws.send($("#messageArea").val());
+            $("#messageArea").val('');
+         });
+         document.onkeydown = function(e){
+         if(!e){
+          e = window.event;
+         }
+         if((e.keyCode || e.which) == 13){
+           $("#sendMessage").click();
+         }
+        }
+      </script>
+        
+   </head>
+   <body>
+   
+      <div id="sse">
+         <a href="javascript:WebSocketTest()">运行 WebSocket</a>
+      </div>
+      
+   </body>
+</html>

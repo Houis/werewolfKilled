@@ -18,8 +18,10 @@
 
 if(!function_exists('api_error_msg')){
     function api_error_msg(){
-        return $api_error_msg = [
+        return  [
             '0'=>'请求成功',
+
+            //用户错误
             '1001'=>'手机号码格式不正确',
             '1002'=>'邮箱格式不正确',
             '1003'=>'缺少参数',
@@ -28,6 +30,9 @@ if(!function_exists('api_error_msg')){
             '1006'=>'用户已存在',
             '1007'=>'用户未注册',
             '1008'=>'密码不正确',
+
+            //聊天错误
+            '2001'=>'连接失败'
         ];
     }
 }

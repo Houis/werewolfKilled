@@ -8,7 +8,6 @@
 
 namespace app\index\controller;
 use think\Cache;
-use think\cache\driver\Redis;
 use \think\Request;
 use \app\index\model\user as userModel;
 class User
@@ -21,7 +20,6 @@ class User
     }
 
     public function register(){
-        debug(get_client_ip());
         $request = Request::instance();
         $params = $request->param();
 

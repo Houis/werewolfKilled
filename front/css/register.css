@@ -1,0 +1,11 @@
+body{
+    background-image: url("../img/register_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    padding-top:5rem;
+}
+
+#register_button{
+    margin-top: 5rem;
+}

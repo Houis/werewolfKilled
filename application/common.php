@@ -190,3 +190,14 @@ if(!function_exists('get_client_ip')){
         return $ip;
     }
 }
+
+if(!function_exists('api_get_user_info')){
+    /**
+     * @param $token
+     * @return mixed
+     * 获取用户信息
+     */
+    function api_get_user_info($token){
+        return \think\Cache::store('redis')->get($token);
+    }
+}
