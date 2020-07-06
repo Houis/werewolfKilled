@@ -1,0 +1,6 @@
+.container-fluid{
+    padding-top: 16%;
+}
+.container-fluid .row #button_box.col-md-12 .btn{
+    margin-bottom: 12%;
+}

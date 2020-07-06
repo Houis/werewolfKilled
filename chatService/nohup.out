@@ -10,3 +10,4 @@ tcp     dev_001         YourAppGateway           websocket://0.0.0.0:8282    4  
 tcp     dev_001         Register                 text://0.0.0.0:1238         1             [OK]            
 -----------------------------------------------------------------------------------------------------------
 Press Ctrl+C to stop. Start success.
+Workerman[start.php] stopping ...

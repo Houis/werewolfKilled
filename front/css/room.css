@@ -1,0 +1,35 @@
+body{
+    background-image: none;
+    min-height: 100vh;
+}
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/room_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+.container-fluid{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.media{
+    background: white;
+    padding:1.5rem 2rem;
+    border-radius: 10px;
+}
+.media img.media-object{
+    width: 5rem;
+}
+.media .media-heading{
+
+}
+.media p.media-body{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}

@@ -20,10 +20,12 @@ class User
     }
 
     public function register(){
+        echo "<pre>";
+        print_r($_SERVER);
+        exit;
         $request = Request::instance();
         $params = $request->param('params');
         $params = json_decode($params,true);
-        debug($params);
 
         $check_params = ['user_name','password','phone','email'];
         if(api_check_params($params,$check_params,true))
@@ -55,14 +57,15 @@ class User
 
     public function login(){
         $request = Request::instance();
-        $params = $request->param();
+        $params = $request->param('params');
+        $params = json_decode($params,true);
 
-        $check_params = ['user_name','password'];
+        $check_params = ['phone','password'];
         if(api_check_params($params,$check_params,true))
             api_result(1003);
 
         $user = new userModel();
-        $user_info = $user->where(['user_name'=>$params['user_name']])->field('user_id,user_name,password,token')->find();
+        $user_info = $user->where(['phone'=>$params['phone']])->field('user_id,user_name,phone,password,token')->find();
 
         if(!$user_info)
             api_result(1007);//用户不存在

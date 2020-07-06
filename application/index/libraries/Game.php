@@ -1,12 +1,18 @@
 <?php
 
+use think\Cache;
 /**
- * Created by PhpStorm.
- * User: dev_001
- * Date: 20/6/12
- * Time: 下午3:40
+ * Class Game
+ * Author Vincenzo
+ * DS Game
  */
 class Game
 {
+    public function createRoom(){
+        $room_num = create_random_code(6,1);
+        if(\think\Cache::store('redis')->get('room_num_'.$room_num)){
 
+        }
+
+    }
 }

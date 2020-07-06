@@ -9,12 +9,23 @@ $("#register_button").click(function(){
         var form = new Form();
 
         form.submit('user/register',JSON.stringify(params),function(response){
-            console.log(response);
+            alert(response.msg);
+            if(response.code == 0){
+                window.location.href = './login.html';
+            }
         });
     }catch(err){
-
+        alert(err.message);
     }finally {
         that.attr('disabled',false);
     }
 
+});
+
+jQuery(document).bind("keyup",function(e){
+    switch (event.keyCode){
+        case 13:
+            $("#register_button").click();
+            break;
+    }
 });

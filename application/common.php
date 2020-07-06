@@ -201,3 +201,27 @@ if(!function_exists('api_get_user_info')){
         return \think\Cache::store('redis')->get($token);
     }
 }
+
+if (!function_exists('create_random_code')) {
+    /**
+     * @param int $pw_length
+     * @param int $pw_type      1:纯数字  2:纯大写字母
+     * @return string
+     * 生成随机码
+     */
+    function create_random_code ($pw_length = 6,$pw_type='1') {
+        $random_code = '';
+        for ($i = 0; $i < $pw_length; $i++) {
+            switch ($pw_type){
+                case '1':
+                    $random_code .= random_int(0,9);
+                    break;
+                default:
+                case '2':
+                    $random_code .= chr(mt_rand(65, 90));
+                    break;
+            }
+        }
+        return $random_code;
+    }
+}

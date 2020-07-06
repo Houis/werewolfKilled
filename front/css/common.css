@@ -7,3 +7,9 @@ body{
 .error_msg{
     color: red;
 }
+.hint {
+    text-align: center;
+}
+.hint p{
+    margin: 0;
+}
